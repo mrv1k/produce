@@ -17,19 +17,28 @@
 @tailwind utilities;
 
 /* https://tailwindcss.com/docs/adding-base-styles */
-
 /* TODO: Figure out how to override font-family for h1-h6 */
-/* @layer base {
+@layer base {
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply font-heading;
+    @apply font-title;
+    font-weight: bold;
   }
 
   p {
     @apply font-body;
   }
-} */
+}
+
+/**
+ * Use this directive to control where Tailwind injects the responsive
+ * variations of each utility.
+ *
+ * If omitted, Tailwind will append these classes to the very end of
+ * your stylesheet by default.
+ */
+@tailwind screens;
