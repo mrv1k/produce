@@ -4,5 +4,10 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
-// You can delete this file if you're not using it
-import './src/styles/global.css';
+// custom typefaces
+import "@fontsource/montserrat/700.css";
+import "@fontsource/montserrat/900.css";
+import "@fontsource/jetbrains-mono";
+import "@fontsource/roboto";
+
+import "./src/styles/tailwind-global.css";

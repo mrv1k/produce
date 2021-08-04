@@ -1,12 +1,14 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "mrv1k-produce",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal portfolio, garden, blog",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Viktor Khotimchenko <viktorkhotimchenko@gmail.com>",
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^4.5.0",
+    "@fontsource/montserrat": "^4.5.0",
+    "@fontsource/roboto": "^4.5.0",
     "gatsby": "^3.10.2",
-    "gatsby-plugin-gatsby-cloud": "^2.10.0",
     "gatsby-plugin-image": "^1.10.1",
     "gatsby-plugin-manifest": "^3.10.0",
     "gatsby-plugin-offline": "^4.10.0",
@@ -27,10 +29,15 @@
     "tailwindcss": "^2.2.7"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "portfolio",
+    "garden",
+    "blog"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
+    "dev": "gatsby develop",
+    "dev-remote": "gatsby develop -H 0.0.0.0",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -41,9 +48,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mrv1k/produce"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/mrv1k/produce/issues"
   }
 }
